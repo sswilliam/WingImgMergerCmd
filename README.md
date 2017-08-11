@@ -1,13 +1,13 @@
 # WingImgMergerCmd
 
-##关于
+## 关于
 在Egret Wing IDE里可以在发布项目的时候，勾选合并资源。同时资源的json文件也会一起更改。这样发布项目就很方便。但是我没找到命令行的相同功能。在论坛上也搜索了，提问了，似乎没有找到满意的答案。于是就自己扒了Egret Wing的内容。发现所有的代码都在 /Applications/Egret Wing 3.app/Contents/Resources/app/extensions/egret-support/web下
 
 因为Egret Wing 3是基于Electron开发的，所以其实是有node+chrome。所以这个功能其实是基于浏览器的canvas来操作图片。所以我猜想这就是Wing没有提供命令行功能的原因。所以我把代码弄出来做了一些修改。使用images库来替换canvas来操作图片。这样就做到了纯命令行下运行。
 
 由于是第一次接触node和javascript，写的有点丑，看看后面如果有需要再改吧。
 
-##如何使用
+## 如何使用
 需要先安装nodejs
 
 1. git clone https://github.com/sswilliam/WingImgMergerCmd.git
