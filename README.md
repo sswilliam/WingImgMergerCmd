@@ -8,10 +8,11 @@
 由于是第一次接触node和javascript，写的有点丑，看看后面如果有需要再改吧。
 
 ## 如何使用
-需要先安装nodejs
+需要先安装nodejs 
 
 1. git clone https://github.com/sswilliam/WingImgMergerCmd.git
 2. cd WingImgMergerCmd
+2.5 npm install images(第一次安装一下就可以了)
 3. node index.js [project path] [publish relative path]
 需要两个参数
 project path就是egret项目的路径
@@ -37,6 +38,7 @@ You need to have node js installed on you machine before you using this tool
 It is a commandline tool, you can use it with following steps
 1. git clone https://github.com/sswilliam/WingImgMergerCmd.git
 2. cd WingImgMergerCmd
+2.5 npm install images (if necessary)
 3. node index.js [project path] [publish relative path]
 
 Here is one example
